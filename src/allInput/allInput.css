@@ -1,0 +1,178 @@
+.inputs-wrapper {
+  position: relative;
+}
+
+.bill-label {
+  color: #5e7a7d;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.eror {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #e17457;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+}
+.icon-dollar {
+  width: 9.84px;
+  position: absolute;
+  top: 38px;
+  left: 19px;
+}
+
+.Bill-input {
+  height: 48px;
+  width: 100%;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #f3f9fa;
+  border: none;
+  color: #00474b;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.Bill-input::placeholder {
+  color: #9ebbbd;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.Bill-input:focus {
+  outline: none;
+  border: 2px solid #26c2ae;
+}
+
+.Select-Tip-label {
+  display: block;
+  color: #5e7a7d;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.percentage-buttons-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+  margin-bottom: 32px;
+}
+
+.persentage-button {
+  height: 48px;
+  border-radius: 5px;
+  background: #00474b;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+}
+
+.Custom {
+  height: 48px;
+  width: 100%;
+  border-radius: 5px;
+  background: #f3f9fa;
+  border: none;
+  color: #547878;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 7px;
+}
+
+.Custom::placeholder {
+  color: #547878;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Custom:focus {
+  outline: none;
+  border: 2px solid #26c2ae;
+}
+
+.NumberofPeople-wrapper {
+  position: relative;
+}
+
+.NumberofPeople-label {
+  display: block;
+  color: #5e7a7d;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.person-icon {
+  position: absolute;
+  top: 37px;
+  left: 15px;
+}
+
+.NumberofPeople-input {
+  height: 48px;
+  width: 100%;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #f3f9fa;
+  border: none;
+  color: #00474b;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.NumberofPeople-input:focus {
+  outline: none;
+  border: 2px solid #26c2ae;
+}
+
+.NumberofPeople-input::placeholder {
+  color: #9ebbbd;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+@media (min-width: 920px) {
+  .Bill-input {
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  .persentage-button:hover {
+    cursor: pointer;
+    background: #9fe8df;
+    color: #00474b;
+  }
+
+  .Custom {
+    cursor: pointer;
+  }
+
+  .percentage-buttons-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .NumberofPeople-input {
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+}
